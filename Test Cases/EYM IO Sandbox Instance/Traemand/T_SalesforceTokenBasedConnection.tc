@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>T_SalesforceTokenBasedConnection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc32ac69-4b34-4121-afde-2f0f283eb897</testCaseGuid>
+</TestCaseEntity>
