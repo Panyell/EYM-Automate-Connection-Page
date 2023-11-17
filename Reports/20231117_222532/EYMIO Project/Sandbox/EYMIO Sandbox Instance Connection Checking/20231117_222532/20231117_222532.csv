@@ -1,0 +1,143 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+EYMIO Sandbox Instance Connection Checking,Chrome 119.0.0.0,,,2023-11-17 22:25:44,2023-11-17 22:31:54,6m - 9.933s,FAILED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Exemptax/E_Schylling-ExempTaxConnection,Chrome 119.0.0.0,,,2023-11-17 22:25:45,2023-11-17 22:26:29,43.924s,FAILED
+"callTestCase(findTestCase(""EYM IO Login/Login Exemptax Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:25:46,2023-11-17 22:26:08,21.918s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:26:08,2023-11-17 22:26:13,5.011s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:26:13,2023-11-17 22:26:13,0.675s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:26:13,2023-11-17 22:26:15,2.015s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:26:15,2023-11-17 22:26:16,0.623s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:26:16,2023-11-17 22:26:18,2.014s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:26:18,2023-11-17 22:26:19,0.567s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:26:19,2023-11-17 22:26:21,2.021s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Exemptax/Exemptax Sandbox/Schylling-ExempTax Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:26:21,2023-11-17 22:26:21,0.675s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:26:21,2023-11-17 22:26:23,2.018s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Exemptax/Exemptax Sandbox/Schylling-ExempTax Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:26:23,2023-11-17 22:26:24,0.471s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:26:24,2023-11-17 22:26:24,0.309s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:26:24,2023-11-17 22:26:27,3.011s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:26:27,2023-11-17 22:26:28,0.762s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:26:28,2023-11-17 22:26:29,0.696s,FAILED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Exemptax/E_Schylling-NetsuiteTokenBasedConnection,Chrome 119.0.0.0,,,2023-11-17 22:26:29,2023-11-17 22:27:07,38.861s,FAILED
+"callTestCase(findTestCase(""EYM IO Login/Login Exemptax Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:26:29,2023-11-17 22:26:47,17.396s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:26:47,2023-11-17 22:26:52,5.008s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:26:52,2023-11-17 22:26:53,0.929s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:26:53,2023-11-17 22:26:55,2.008s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:26:55,2023-11-17 22:26:55,0.612s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:26:55,2023-11-17 22:26:57,2.012s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:26:57,2023-11-17 22:26:58,0.700s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:26:58,2023-11-17 22:27:00,2.010s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Exemptax/Exemptax Sandbox/Schylling-NetsuiteTokenBased Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:27:00,2023-11-17 22:27:01,0.767s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:27:01,2023-11-17 22:27:03,2.010s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Exemptax/Exemptax Sandbox/Schylling-NetsuiteTokenBased Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:27:03,2023-11-17 22:27:03,0.476s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:27:03,2023-11-17 22:27:03,0.048s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:27:03,2023-11-17 22:27:06,3.010s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:27:06,2023-11-17 22:27:07,0.411s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:27:07,2023-11-17 22:27:07,0.816s,FAILED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Propeller/P_BambooHRConnection,Chrome 119.0.0.0,,,2023-11-17 22:27:08,2023-11-17 22:27:48,40.388s,PASSED
+"callTestCase(findTestCase(""EYM IO Login/Login Propeller Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:27:08,2023-11-17 22:27:26,17.297s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:27:26,2023-11-17 22:27:31,5.016s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:27:31,2023-11-17 22:27:31,0.714s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:27:31,2023-11-17 22:27:33,2.005s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:27:33,2023-11-17 22:27:34,0.654s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:27:34,2023-11-17 22:27:36,2.022s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:27:36,2023-11-17 22:27:37,0.542s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:27:37,2023-11-17 22:27:39,2.016s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Propeller/Propeller Sandbox/P_BambooHR""))",Chrome 119.0.0.0,,,2023-11-17 22:27:39,2023-11-17 22:27:39,0.580s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:27:39,2023-11-17 22:27:41,2.007s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Propeller/Propeller Sandbox/P_BambooHR""))",Chrome 119.0.0.0,,,2023-11-17 22:27:41,2023-11-17 22:27:42,0.571s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:27:42,2023-11-17 22:27:42,0.076s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:27:42,2023-11-17 22:27:45,3.008s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:27:45,2023-11-17 22:27:45,0.397s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:27:45,2023-11-17 22:27:46,0.382s,PASSED
+"if (verifyTextPresent(""Connection Successful."", true) == true)",Chrome 119.0.0.0,,,2023-11-17 22:27:46,2023-11-17 22:27:48,2.338s,PASSED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Propeller/P_NetSuiteConnection,Chrome 119.0.0.0,,,2023-11-17 22:27:48,2023-11-17 22:28:26,37.685s,PASSED
+"callTestCase(findTestCase(""EYM IO Login/Login Propeller Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:27:49,2023-11-17 22:28:04,15.405s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:28:04,2023-11-17 22:28:09,5.005s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:28:09,2023-11-17 22:28:10,0.655s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:10,2023-11-17 22:28:12,2.014s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:28:12,2023-11-17 22:28:13,1.008s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:13,2023-11-17 22:28:15,2.003s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:28:15,2023-11-17 22:28:15,0.580s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:15,2023-11-17 22:28:17,2.011s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Propeller/Propeller Sandbox/P_ NetSuiteTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:28:17,2023-11-17 22:28:18,0.613s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:18,2023-11-17 22:28:20,2.012s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Propeller/Propeller Sandbox/P_ NetSuiteTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:28:20,2023-11-17 22:28:20,0.459s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:28:20,2023-11-17 22:28:20,0.053s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:28:20,2023-11-17 22:28:23,3.012s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:28:23,2023-11-17 22:28:24,0.419s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:28:24,2023-11-17 22:28:24,0.378s,PASSED
+"if (verifyTextPresent(""Connection Successful."", true) == true)",Chrome 119.0.0.0,,,2023-11-17 22:28:24,2023-11-17 22:28:26,1.337s,PASSED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Propeller/P_SalesforceConnection,Chrome 119.0.0.0,,,2023-11-17 22:28:26,2023-11-17 22:29:03,37.701s,PASSED
+"callTestCase(findTestCase(""EYM IO Login/Login Propeller Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:28:26,2023-11-17 22:28:41,15.245s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:28:41,2023-11-17 22:28:46,5.005s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:28:46,2023-11-17 22:28:47,0.745s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:47,2023-11-17 22:28:49,2.010s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:28:49,2023-11-17 22:28:50,0.624s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:50,2023-11-17 22:28:52,2.008s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:28:52,2023-11-17 22:28:53,0.790s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:53,2023-11-17 22:28:55,2.010s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Propeller/Propeller Sandbox/P_SalesforceTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:28:55,2023-11-17 22:28:55,0.609s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:28:55,2023-11-17 22:28:57,2.006s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Propeller/Propeller Sandbox/P_SalesforceTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:28:57,2023-11-17 22:28:58,0.474s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:28:58,2023-11-17 22:28:58,0.055s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:28:58,2023-11-17 22:29:01,3.008s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:29:01,2023-11-17 22:29:01,0.559s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:29:01,2023-11-17 22:29:02,0.377s,PASSED
+"if (verifyTextPresent(""Connection Successful."", true) == true)",Chrome 119.0.0.0,,,2023-11-17 22:29:02,2023-11-17 22:29:03,1.552s,PASSED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Staging/S_NetSuiteConnectionSample,Chrome 119.0.0.0,,,2023-11-17 22:29:03,2023-11-17 22:30:37,1m - 34.157s,FAILED
+"callTestCase(findTestCase(""EYM IO Login/Login Staging Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:29:04,2023-11-17 22:29:20,16.071s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:29:20,2023-11-17 22:29:25,5.006s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:29:25,2023-11-17 22:29:26,0.822s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:29:26,2023-11-17 22:29:28,2.018s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:29:28,2023-11-17 22:29:28,0.592s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:29:28,2023-11-17 22:29:30,2.005s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:29:30,2023-11-17 22:29:31,0.547s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:29:31,2023-11-17 22:29:33,2.011s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Staging/Connection Sample""))",Chrome 119.0.0.0,,,2023-11-17 22:29:33,2023-11-17 22:29:34,0.682s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:29:34,2023-11-17 22:29:36,2.006s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Staging/Connection Sample""))",Chrome 119.0.0.0,,,2023-11-17 22:29:36,2023-11-17 22:29:36,0.478s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:29:36,2023-11-17 22:29:36,0.060s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:29:36,2023-11-17 22:29:39,3.003s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:29:39,2023-11-17 22:30:10,30.268s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:30:10,2023-11-17 22:30:37,27.968s,FAILED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Traemand/T_NetsuiteTokenBasedConnection,Chrome 119.0.0.0,,,2023-11-17 22:30:38,2023-11-17 22:31:17,39.016s,PASSED
+"callTestCase(findTestCase(""EYM IO Login/Login Traemand Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:30:38,2023-11-17 22:30:55,16.615s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:30:55,2023-11-17 22:31:00,5.008s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:31:00,2023-11-17 22:31:00,0.692s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:00,2023-11-17 22:31:02,2.003s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:31:03,2023-11-17 22:31:03,0.626s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:03,2023-11-17 22:31:05,2.014s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:31:05,2023-11-17 22:31:06,0.660s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:06,2023-11-17 22:31:08,2.018s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Traemand/Traemand Sandbox/NetsuiteTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:31:08,2023-11-17 22:31:08,0.594s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:08,2023-11-17 22:31:10,2.007s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Traemand/Traemand Sandbox/NetsuiteTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:31:10,2023-11-17 22:31:11,0.445s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:31:11,2023-11-17 22:31:11,0.037s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:31:11,2023-11-17 22:31:14,3.003s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:31:14,2023-11-17 22:31:15,0.605s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:31:15,2023-11-17 22:31:15,0.361s,PASSED
+"if (verifyTextPresent(""Connection Successful."", true) == true)",Chrome 119.0.0.0,,,2023-11-17 22:31:15,2023-11-17 22:31:17,1.664s,PASSED
+,,,,,,,
+Test Cases/EYM IO Sandbox Instance/Traemand/T_SalesforceTokenBasedConnection,Chrome 119.0.0.0,,,2023-11-17 22:31:17,2023-11-17 22:31:54,37.313s,PASSED
+"callTestCase(findTestCase(""EYM IO Login/Login Traemand Sandbox""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-17 22:31:17,2023-11-17 22:31:32,15.208s,PASSED
+delay(5),Chrome 119.0.0.0,,,2023-11-17 22:31:32,2023-11-17 22:31:37,5.005s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Maintenance""))",Chrome 119.0.0.0,,,2023-11-17 22:31:37,2023-11-17 22:31:38,0.721s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:38,2023-11-17 22:31:40,2.017s,PASSED
+"mouseOver(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:31:40,2023-11-17 22:31:41,0.666s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:41,2023-11-17 22:31:43,2.010s,PASSED
+"click(findTestObject(""EYM IO - Dashboard Page/IO Connection""))",Chrome 119.0.0.0,,,2023-11-17 22:31:43,2023-11-17 22:31:43,0.554s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:43,2023-11-17 22:31:45,2.015s,PASSED
+"mouseOver(findTestObject(""EYM IO - Connection Page/Traemand/Traemand Sandbox/SalesforceTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:31:45,2023-11-17 22:31:46,0.575s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-17 22:31:46,2023-11-17 22:31:48,2.014s,PASSED
+"click(findTestObject(""EYM IO - Connection Page/Traemand/Traemand Sandbox/SalesforceTokenBased""))",Chrome 119.0.0.0,,,2023-11-17 22:31:48,2023-11-17 22:31:49,0.447s,PASSED
+waitForJQueryLoad(30),Chrome 119.0.0.0,,,2023-11-17 22:31:49,2023-11-17 22:31:49,0.066s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-17 22:31:49,2023-11-17 22:31:52,3.014s,PASSED
+"verifyElementPresent(findTestObject(""EYM IO - Dashboard Page/Connection - Successful""), 0)",Chrome 119.0.0.0,,,2023-11-17 22:31:52,2023-11-17 22:31:52,0.430s,PASSED
+"verifyTextPresent(""Connection Successful."", false)",Chrome 119.0.0.0,,,2023-11-17 22:31:52,2023-11-17 22:31:52,0.389s,PASSED
+"if (verifyTextPresent(""Connection Successful."", true) == true)",Chrome 119.0.0.0,,,2023-11-17 22:31:52,2023-11-17 22:31:54,1.457s,PASSED
